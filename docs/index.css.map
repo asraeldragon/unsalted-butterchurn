@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/style/style.css"],
+  "sourcesContent": ["body {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  overflow: hidden;\n}\n\nbody, #render, #error, #clickHere {\n  width: 100vw;\n  height: 100vh;\n}\n\n#error, #clickHere {\n  position: absolute;\n  top: 0;\n  left: 0;\n  color: #fff;\n  pointer-events: none;\n  text-shadow:\n    -1px -1px 0 #000,\n    1px -1px 0 #000,\n    -1px 1px 0 #000,\n    1px 1px 0 #000;\n}\n"],
+  "mappings": "AAAA,wBAGE,SACA,gBAGF,+BACE,YACA,aAGF,kBACE,kBACA,MACA,OACA,WACA,oBACA",
+  "names": []
+}

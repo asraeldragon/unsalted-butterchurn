@@ -1,0 +1,2 @@
+body{margin:0;padding:0;border:0;overflow:hidden}body,#render,#error,#clickHere{width:100vw;height:100vh}#error,#clickHere{position:absolute;top:0;left:0;color:#fff;pointer-events:none;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000}
+/*# sourceMappingURL=index.css.map */
