@@ -1,0 +1,25 @@
+{
+  "name": "unsalted-butterchurn",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MPL-2.0",
+  "scripts": {
+    "start": "node build.js",
+    "build": "NODE_ENV=production yarn start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@craftamap/esbuild-plugin-html": "^0.4.0",
+    "butterchurn": "^2.6.7",
+    "butterchurn-presets": "^2.4.7",
+    "esbuild": "^0.14.48"
+  },
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-promise": "^6.0.0",
+    "livery": "^4.0.1"
+  }
+}
